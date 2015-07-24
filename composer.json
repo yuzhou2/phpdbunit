@@ -1,0 +1,23 @@
+{
+    "name": "yuzhou2/phpdbunit",
+    "description": "phpdbunit",
+    "authors": [
+        {
+            "name": "yuzhou2",
+            "email": "yuzhou2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.4",
+        "phpunit/dbunit":  ">=1.2"
+    },
+    "autoload": {
+        "classmap": [ "src/" ]
+    },
+    "autoload-dev": {
+        "classmap": [ "tests/" ]
+    }
+}
